@@ -24,7 +24,7 @@ os.system("source liquidprompt/liquidprompt")
 os.system("cp ~/liquidprompt/liquidpromptrc-dist ~/.liquidpromptrc")
 # Run liquidprompt by default
 os.system("echo '# Only load Liquid Prompt in interactive shells, not from a script or from scp \n[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt' >> ~/.bashrc")
-#os.system("")
+os.system("exec bash")
 #os.system("")
 #os.system("")
 #os.system("")
