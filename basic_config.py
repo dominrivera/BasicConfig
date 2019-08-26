@@ -20,7 +20,7 @@ os.system("echo '\n# Start tmux \n[[ $TERM != \"screen\" ]] && exec tmux' >> ~/.
 # Download liquidpromt
 os.system("git clone https://github.com/nojhan/liquidprompt.git")
 # Source liquidprompt/liquidprompt
-os.system("source liquidprompt/liquidprompt")
+#os.system("source liquidprompt/liquidprompt")
 # Create .liquidpromptrc
 os.system("cp ~/liquidprompt/liquidpromptrc-dist ~/.liquidpromptrc")
 # Run liquidprompt by default
