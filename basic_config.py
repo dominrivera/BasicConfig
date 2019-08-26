@@ -3,8 +3,9 @@
 import os
 
 cmd = "apt"
+homedir = os.path.expanduser("~")
+os.chdir(homedir)
 
-os.system("cd")
 os.system("%s upgrade" % cmd)
 os.system("%s update" % cmd)
 
@@ -23,7 +24,7 @@ os.system("source liquidprompt/liquidprompt")
 # Create .liquidpromptrc
 os.system("cp ~/liquidprompt/liquidpromptrc-dist ~/.liquidpromptrc")
 # Run liquidprompt by default
-os.system("echo '# Only load Liquid Prompt in interactive shells, not from a script or from scp \n[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt' >> ~/.bashrc")
+os.system("echo '\n# Only load Liquid Prompt in interactive shells, not from a script or from scp \n[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt' >> ~/.bashrc")
 os.system("exec bash")
 #os.system("")
 #os.system("")
