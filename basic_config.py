@@ -5,13 +5,13 @@ import os
 cmd = "apt"
 
 os.system("cd")
-os.system("%s upgrade", % cmd)
-os.system("%s update", % cmd)
+os.system("%s upgrade" % cmd)
+os.system("%s update" % cmd)
 
 # Install vim
-os.system("%s install vim", % cmd)
+os.system("%s install vim" % cmd)
 #install tmux
-os.system("%s install tmux", % cmd)
+os.system("%s install tmux" % cmd)
 # Add comment custom configuration
 os.system("echo '\n###### custom config ######' >> ~/.bashrc")
 # Run tmux by default
