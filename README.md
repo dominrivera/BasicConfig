@@ -8,5 +8,5 @@ This repo contains a python script which running it with root privileges, it wil
 * git
 
 ## Installation
-* `git clone git@github.com:dominrivera/BasicConfig.git`
-* `python BasicConfig/basic_config.py`
+* `git clone git@github.com:dominrivera/inception.git`
+* `python inception/inception.py`
