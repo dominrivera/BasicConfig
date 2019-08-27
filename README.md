@@ -1,4 +1,4 @@
-# BasicConfig
+# Inception
 This repo contains a python script which running it with root privileges, it will install in your machine the following tools:
 * Vim
 * Tmux
