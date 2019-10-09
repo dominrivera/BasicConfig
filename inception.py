@@ -11,6 +11,8 @@ os.system("%s update" % cmd)
 
 # Install vim
 os.system("%s install vim" % cmd)
+# Remove whitespaces end of line
+os.system("echo '\n# Remove whitespaces at end of line \nautocmd BufWritePre * %s/\s\+$//e' >> ~/.vimrc")
 #install tmux
 os.system("%s install tmux" % cmd)
 # Add comment custom configuration
