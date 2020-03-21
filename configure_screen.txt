@@ -1,0 +1,11 @@
+cvt 3440 1440 30
+sudo xrandr --newmode "3440x1440_30.00"  196.25  3440 3600 3952 4464  1440 1443 1453 1468 -hsync +vsync
+xrandr to see screen name. Im this case is HDMI-1
+sudo xrandr --addmode HDMI-1 "3440x1440_30.00"
+
+apply in display settings the new config
+
+then to keep this config after turn off the computer we have to add into ~/.profile the following lines:
+
+xrandr --newmode "3440x1440_30.00"  196.25  3440 3600 3952 4464  1440 1443 1453 1468 -hsync +vsync
+xrandr --addmode HDMI-1 "3440x1440_30.00"
