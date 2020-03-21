@@ -1,0 +1,17 @@
+[user]
+      name = Domingo Rivera
+      email = domingo.rivera.barros@cern.ch
+[alias]
+      lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+      br = branch
+      ck = checkout
+      st = status
+[branch]
+      autosetuprebase = always
+[color]
+      diff = auto
+      status = auto
+      branch = auto
+      interactive = auto
+      ui = true
+      pager = true
